@@ -1,5 +1,5 @@
 이선희 웹 CV
-Version: V4.1
-Edition: Final Unified Set
-Status: FINAL
+Version: V4.2 CLEAN FINAL
+Base: V4.0 pre-Codex coherent set
+Change: 프로필 사진 우측 경계 보정만 적용
 Updated: 2026-08-13
