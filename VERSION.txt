@@ -1,5 +1,4 @@
-이선희 웹 CV
-Version: V3.7 RECOVERY
-Base: V3.6
-Purpose: 3번 영상 선택 이후 누락 피드백 복구
-Updated: 2026-08-14
+이선희 Web CV
+V3.8 RECOVERY
+기준: V3.7 RECOVERY + 2026-08-14 확정 피드백
+페이지 내 버전번호 미표시

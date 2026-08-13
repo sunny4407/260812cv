@@ -472,3 +472,56 @@ footer{width:min(1320px,calc(100% - 40px));margin:0 auto 26px;padding:18px 4px;d
   .promo-video video{min-height:0;height:auto;aspect-ratio:16/9;object-fit:contain;object-position:left center}
   .portrait-frame{border-color:rgba(255,255,255,.98);box-shadow:16px 16px 0 #86add1,0 10px 20px rgba(16,44,77,.10),0 2px 8px rgba(16,44,77,.08)}
 }
+
+/* =========================================================
+   V3.8 RECOVERY — confirmed feedback through 2026-08-14
+   ========================================================= */
+
+/* 01 CURRENT: match the inner left padding of 02/03. */
+.career-axes article:first-child{
+  padding-left:34px;
+}
+
+/* Representative experience: 3 cards, keep LaVenue visually featured but reduce density. */
+.project-grid article{
+  min-height:204px;
+}
+.project-grid .featured-project{
+  min-height:419px;
+}
+.featured-project .project-type{
+  margin-top:54px;
+}
+.featured-project ul{
+  margin-top:24px;
+  padding-top:20px;
+}
+
+/* Mobile career titles/roles: prevent the role from wrapping awkwardly. */
+.career-head > div > p{
+  display:block;
+  white-space:nowrap;
+}
+
+@media (max-width:820px){
+  .career-axes article:first-child{
+    padding-left:28px;
+  }
+  .project-grid article,
+  .project-grid .featured-project{
+    min-height:auto;
+  }
+  .featured-project .project-type{
+    margin-top:0;
+  }
+  .career-head{
+    align-items:flex-start;
+  }
+  .career-head > div{
+    width:100%;
+  }
+  .career-head > div > p{
+    margin-top:5px;
+    white-space:nowrap;
+  }
+}
