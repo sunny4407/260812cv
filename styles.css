@@ -53,9 +53,9 @@ ul{margin-top:0}
 .quick-info{display:flex;flex-wrap:wrap;gap:12px 26px;margin:0;padding:0;list-style:none;color:#687c8f;font-size:12px}
 .quick-info li:before{content:"";display:inline-block;width:4px;height:4px;margin:0 9px 2px 0;border-radius:50%;background:var(--blue-soft)}
 .portrait-wrap{position:relative;z-index:2;isolation:isolate;justify-self:center}
-.portrait-backdrop{position:absolute;z-index:0;inset:-26px 38px 28px -28px;border:1px solid rgba(46,111,174,.26);border-radius:180px 180px 20px 20px}
-.portrait-frame{position:relative;z-index:2;width:min(29vw,390px);aspect-ratio:4/5;overflow:hidden;background:#fff;border:2px solid rgba(255,255,255,.94);border-radius:180px 180px 18px 18px;box-shadow:30px 24px 0 #86add1,0 14px 28px rgba(16,44,77,.10),0 3px 10px rgba(16,44,77,.08)}
-.portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 24%}
+.portrait-backdrop{position:absolute;z-index:0;inset:-26px 44px 28px -28px;border:1px solid rgba(46,111,174,.30);border-radius:180px 180px 20px 20px}
+.portrait-frame{position:relative;z-index:2;width:min(29vw,390px);aspect-ratio:4/5;overflow:hidden;background:#fff;border:2px solid rgba(255,255,255,.96);border-radius:180px 180px 18px 18px;box-shadow:30px 24px 0 #86add1,0 14px 28px rgba(16,44,77,.10),0 3px 10px rgba(16,44,77,.08)}
+.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 24%}
 
 .career-landscape{margin:14px 0;display:grid;grid-template-columns:.9fr 1.25fr 1fr;overflow:hidden;border:1px solid rgba(62,98,135,.16);border-radius:18px;background:#f8fbfd;box-shadow:var(--shadow)}
 .axis{min-height:190px;padding:34px 34px 30px;display:flex;flex-direction:column;justify-content:flex-end;border-right:1px solid var(--line)}
@@ -225,7 +225,7 @@ footer{width:min(1320px,calc(100% - 40px));margin:0 auto 26px;padding:18px 4px;d
 }
 
 @media (max-width:768px){
-  .portrait-backdrop{inset:-22px 34px 24px -24px}
+  .portrait-backdrop{inset:-22px 38px 24px -24px}
   .portrait-frame{border-color:rgba(255,255,255,.98);box-shadow:24px 20px 0 #86add1,0 10px 20px rgba(16,44,77,.10),0 2px 8px rgba(16,44,77,.08)}
 }
 

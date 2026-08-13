@@ -1,5 +1,5 @@
 이선희 웹 CV
-Version: V3.5
-Edition: Complete Professional CV · Career Detail & Tools Refinement
-Status: Latest
+Version: V4.1
+Edition: Final Unified Set
+Status: FINAL
 Updated: 2026-08-13
